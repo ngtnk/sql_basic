@@ -1,0 +1,1 @@
+SELECT * FROM employee WHERE dept_id IS NULL;

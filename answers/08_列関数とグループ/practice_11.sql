@@ -1,0 +1,1 @@
+SELECT category, COUNT(*), SUM(price) FROM t_sales GROUP BY category HAVING SUM(price) >= 3000;

@@ -1,0 +1,2 @@
+INSERT INTO employee
+VALUES(11, '内田 康博', NULL, NULL, NULL, NULL);

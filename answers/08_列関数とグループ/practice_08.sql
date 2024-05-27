@@ -1,0 +1,1 @@
+SELECT item, SUM(price) FROM t_sales GROUP BY item;

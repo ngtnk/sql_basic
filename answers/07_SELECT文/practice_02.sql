@@ -1,0 +1,1 @@
+SELECT name, dept_id FROM employee;

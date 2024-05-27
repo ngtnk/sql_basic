@@ -1,0 +1,1 @@
+SELECT * FROM employee WHERE name = '長谷川 雅紀';

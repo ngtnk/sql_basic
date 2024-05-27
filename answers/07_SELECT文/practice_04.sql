@@ -1,0 +1,1 @@
+SELECT name FROM employee WHERE salary >= 400000 AND dept_id = 3;

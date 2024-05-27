@@ -1,0 +1,1 @@
+SELECT staff_name, COUNT(*), SUM(price) FROM t_sales GROUP BY staff_name;

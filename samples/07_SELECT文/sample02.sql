@@ -1,0 +1,1 @@
+SELECT name, hire_date FROM employee;
