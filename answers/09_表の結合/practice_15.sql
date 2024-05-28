@@ -10,4 +10,6 @@ FROM
     INNER JOIN employee AS E ON S.employee_id = E.employee_id
     -- ここでSIにさらにEを結合する
 WHERE
-    S.sales_date BETWEEN '2021-12-10' AND '2021-12-11';
+    S.sales_date BETWEEN '2021-12-10' AND '2021-12-11'
+ORDER BY
+	S.sales_date ASC;
